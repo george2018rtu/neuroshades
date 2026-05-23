@@ -6,7 +6,7 @@
   <title>Neuroshade</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<script src="script.js"></script>
+
 <body>
 
   <header class="hero">
@@ -15,13 +15,17 @@
       <a href="#features">Features</a>
       <a href="#stats">Stats</a>
       <a href="#pricing">Pricing</a>
+      <a href="contact.html">Contact</a>
     </nav>
 
     <div class="hero-content">
-      <div>
-        <h2>Smart glasses for focus, posture, and screen fatigue.</h2>
-        <p>AI-powered eyewear designed to detect poor posture, repeated reading patterns, and focus fatigue.</p>
-        <button>Learn More</button>
+      <div class="hero-text">
+        <h2>Smart eyewear that fights screen fatigue before it wins.</h2>
+        <p>
+          Neuroshade uses poor posture detection, eye-tracking, and smart tinting to help students,
+          office workers, gamers, and long-hour screen users stay focused and reduce strain on back and neck from bad posture.
+        </p>
+        <button id="demoBtn">Simulate tinting technology</button>
       </div>
 
       <img src="images/product.png" alt="Neuroshade smart glasses" />
@@ -29,27 +33,68 @@
   </header>
 
   <section id="features">
-    <h2>What Neuroshade Does</h2>
-    <div class="cards">
-      <div class="card">Detects poor posture</div>
-      <div class="card">Tracks repeated reading patterns</div>
-      <div class="card">Uses smart tinting to regain attention</div>
-      <div class="card">Supports video recording</div>
+    <div class="section-box">
+      <h2>What Neuroshade Does</h2>
+      <p>
+        Neuroshade is designed to detect signs of poor posture and focus fatigue, then respond
+        with smart tinting to help users reset their attention before bad posture, pressure on neck, and 
+        reduced attention on work form.
+      </p>
+
+      <div class="cards">
+        <div class="card">Detects poor posture during long screen sessions</div>
+        <div class="card">Tracks repeated reading patterns and fatigue signs</div>
+        <div class="card">Uses smart tinting to regain user attention</div>
+        <div class="card">Includes recording support through a front camera</div>
+      </div>
     </div>
   </section>
 
   <section id="stats">
-    <h2>Why It Matters</h2>
-    <p>80.81% of office workers experience work-related musculoskeletal disorders.</p>
-    <p>58.6% report neck pain.</p>
-    <p>A 60-degree head tilt can place about 27kg of force on the neck.</p>
+    <div class="section-box">
+      <h2>Why It Matters</h2>
+      <p>
+        Students and workers spend hours staring at screens, often with poor posture and constant
+        distractions. Neuroshade targets both physical strain and focus loss.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3>80.81%</h3>
+          <p>of office workers experience work-related musculoskeletal disorders.</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>58.6%</h3>
+          <p>of workers specifically report neck pain.</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>27kg</h3>
+          <p>of force can be placed on the neck from a 60-degree head tilt.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="pricing">
-    <h2>Estimated Price</h2>
-    <p class="price">$349 CAD</p>
-    <p>Designed as a premium wearable technology product.</p>
+    <div class="section-box">
+      <h2>Product Pricing</h2>
+      <p>
+        Neuroshade is a premium wearable technology product for students,
+        professionals, gamers, programmers, and long-hour screen users.
+      </p>
+
+      <div class="price-box">
+        <p class="price">$349 CAD</p>
+        <p>Estimated production cost: $140 CAD</p>
+        <p>Estimated profit per unit: $209 CAD</p>
+      </div>
+    </div>
   </section>
 
+  <div id="overlay"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
