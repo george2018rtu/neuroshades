@@ -286,3 +286,15 @@ section p {
 #overlay.active {
   opacity: 1;
 }
+
+#infomercial {
+    padding: 80px 10%;
+}
+
+.infomercial-video {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 30px auto 0 auto;
+    border-radius: 12px;
+}
